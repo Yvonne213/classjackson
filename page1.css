@@ -1,10 +1,12 @@
 body{
     background-color: beige;
-    background-image: url('banana.jpeg');
-
 }
-
-p{
+img{
+    display:block;
+    margin:0 auto;
+    max-width:40%
+}
+h1,p{
     text-align: center;
     color:blueviolet;
 }
@@ -14,18 +16,20 @@ p{
     justify-content: space-between;
     width: 260px; /* Adjust width as needed */
     margin-bottom: 10px; /* Space between labels and dropdowns */
-    margin-left: 13%;
+    margin:0 auto;
+    color:rgb(147, 128, 0)
 }
 
 .dropdowns {
     display: flex;
     justify-content: space-between;
     width: 300px; /* Match the width of the label row */
-    margin-left: 10%;
+    margin: 0 auto;
+    padding:20px
 }
 
 .result{
-    margin-top: 10%;
+
     font-size: 18px;
     font-weight: bold;
     text-align: center;
@@ -34,5 +38,4 @@ p{
 .button-container {
     text-align: center; /* Centers the button horizontally */
     margin-top: 20px;
-    
 }
